@@ -9,7 +9,7 @@ class TestCalculadora(unittest.TestCase):
 
     def test_suma_10_mas_2(self):
         calc = Calculadora()
-        self.assertEqual(11, calc.suma(10, 2))
+        self.assertEqual(12, calc.suma(10, 2))
 
 if __name__ == '__main__':
     unittest.main()
